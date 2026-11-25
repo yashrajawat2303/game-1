@@ -23,7 +23,7 @@ Pre-production
 - END
 - EN
 - WP
-- CHAOS
+- Malice
 
 ## Core Mechanics
 - Personality switching
