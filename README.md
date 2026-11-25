@@ -27,5 +27,9 @@ Pre-production
 
 ## Core Mechanics
 - Personality switching
+- Personality-dependent abilities
 - Ability unlocking through World Power (WP)
-- Chaos regeneration through combat and ability mixing
+- Malice regeneration through combat and ability mixing
+- Synchronization between the real world and the supernatural world
+- World corruption affecting enemy presence and encounter difficulty
+- Optional boss and secret boss encounters
