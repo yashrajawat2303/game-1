@@ -34,7 +34,11 @@ public:
     
     
     );
+    // stamina regen
+    void stamina_regen(int &stamina, int max_stamina, int amount);
 
+    // WP ( world power)
+    void gain_wp(int &wp, int amount);
   
 };
 
