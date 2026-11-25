@@ -15,14 +15,14 @@ class character {
     int stamina;
     int energy;
     int world_power;
-    int chaos;
+    int Malice;
     int aura;
     string trait;
     string ability;
+    string Synchronize;
     int xp;
     int str;
     int agl;
-    int affinity;
     int dex;
     int def;
     int end;
@@ -81,7 +81,7 @@ class character {
     return absorb;
     }
     
-    M    
+       
 
 
     }
