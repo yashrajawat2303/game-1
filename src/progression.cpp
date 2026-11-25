@@ -19,6 +19,18 @@ public:
         int &mp,
         int &def,
         int &end
+        int &health;
+        int &stamina;
+        int &energy;
+        int &world_power;
+        int &Malice;
+        int &aura;
+        string &trait;
+        string &ability;
+        string &Synchronize;
+        int &spd;
+    
+    
     );
 
   
