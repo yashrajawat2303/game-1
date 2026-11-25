@@ -39,7 +39,12 @@ public:
 
     // WP ( world power)
     void gain_wp(int &wp, int amount);
-  
-};
+    
+    // currency 
+     void money_gain (int &money, int max_money, int amount);
+     void special_coin_gain ( int &special_coin, int max_special_coin, int amount);
+     void good_karma_gain ( int &good_karma, int amount);
+     void bad_karma_gain (int &bad_karma, int amount);
+ };
 
 #endif
