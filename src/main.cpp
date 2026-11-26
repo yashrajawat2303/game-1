@@ -3,6 +3,9 @@
 #include <ctime>
 #include <iterator>
 #include <ostream>
+#include "fighting.h"
+#include "PROGRESSION.h"
+
 
 using namespace std ;
 
@@ -27,5 +30,5 @@ class character {
 
 
     }
-}
+
 
