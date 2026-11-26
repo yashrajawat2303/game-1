@@ -33,7 +33,7 @@ public:
         int &spd,
         int &c_rate,
         int &c_mult,
-        
+
     
     
     );
@@ -48,6 +48,42 @@ public:
      void special_coin_gain ( int &special_coin, int max_special_coin, int amount);
      void good_karma_gain ( int &good_karma, int amount);
      void bad_karma_gain (int &bad_karma, int amount);
+     
+     // for random values 
+     int random (int min,int max ) {
+    return rand() % ( max - min + 1 ) + min; 
+    }
+    // xp gain
+    void experience (int gained) {
+        xp+=gained;
+     
+        // level up stat gain
+    }
+     void level_up ( ) {
+            level++;
+            int str_gain=random(3,9);
+            int agl_gain=random(3,9);
+            int dex_gain=random(2,7);
+            int aur_gain=random(1,5);
+            int hp_gain=random(20,100);
+            int mp_gain=random(5,30);
+            int def_gain=random(3,9);
+            int end_gain=random(2,7)
+            
+            str+=str_gain;
+            agl+=agl_gain;
+            dex+=dex_gain;
+            aur+=aur_gain;
+            hp+=hp_gain;
+            mp+=mp_gain;
+            def+=def_gain;
+            end+=end_gain;
+        }          
+
+
+
+
+
  };
 
 #endif
