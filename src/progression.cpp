@@ -80,6 +80,10 @@ public:
             end+=end_gain;
         }          
 
+     while (xp>=xprequired) {
+        xp-=xprequired;
+        xprequired=xprequired*1.5; 
+        level_up ()
 
 
 
