@@ -2,16 +2,16 @@
 #define fighting_h
 
 
-attack ( ) {
+int attack ( ) {
       damage= str*0.7+dex*0.2+aur*0.4;
       return damage;
     }  
 
-dmgtake( ) {
+int dmgtake( ) {
     absorb = def*0.5+end*0.5;
     return absorb;
     }
-critical(int damage ) {
+int critical(int damage ) {
     crit=c_mult*damage;
     return crit; 
 }
