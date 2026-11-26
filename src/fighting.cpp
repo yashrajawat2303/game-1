@@ -21,7 +21,7 @@ int critical(int damage ) {
 }
 int roll () {    
 int roll = rand() %100;
- damage=attack()
+ damage=attack();
     if (roll >c_rate) {
         return critical(damage) ;
     }
@@ -30,5 +30,9 @@ int roll = rand() %100;
      }
 
     }
+int block (int absorb ) {
+    absorb = absorb*2.5;
+    return absorb;
+}    
 
 #endif
