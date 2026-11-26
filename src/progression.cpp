@@ -70,14 +70,14 @@ public:
             int def_gain=random(3,9);
             int end_gain=random(2,7)
             
-            str+=str_gain;
-            agl+=agl_gain;
-            dex+=dex_gain;
-            aur+=aur_gain;
-            hp+=hp_gain;
-            mp+=mp_gain;
-            def+=def_gain;
-            end+=end_gain;
+            &str+=str_gain;
+            &agl+=agl_gain;
+            &dex+=dex_gain;
+            &aur+=aur_gain;
+            &hp+=hp_gain;
+            &mp+=mp_gain;
+            &def+=def_gain;
+            &end+=end_gain;
         }          
 
      while (xp>=xprequired) {
