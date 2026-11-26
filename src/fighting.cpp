@@ -16,7 +16,14 @@ critical(int crit ) {
     return crit; 
 }
     
-
+int roll = rand() %100 {
+    if (roll >c_rate) {
+        return critical;
+    }
+     else {
+        return damage;
+     }
+}
 
 
 #endif
