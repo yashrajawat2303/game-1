@@ -15,8 +15,8 @@ int critical(int damage ) {
     crit=c_mult*damage;
     return crit; 
 }
-    
-int roll () = rand() %100;
+int roll () {    
+int roll = rand() %100;
 int damage=attack()
     if (roll >c_rate) {
         return critical() ;
@@ -25,6 +25,6 @@ int damage=attack()
         return damage;
      }
 
-
+    }
 
 #endif
