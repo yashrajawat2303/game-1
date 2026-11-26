@@ -3,16 +3,16 @@
 
 
 int attack ( ) {
-      damage= str*0.7+dex*0.2+aur*0.4;
+      int damage= str*0.7+dex*0.2+aur*0.4;
       return damage;
     }  
 
 int dmgtake( ) {
-    absorb = def*0.5+end*0.5;
+    int absorb = def*0.5+end*0.5;
     return absorb;
     }
 int critical(int damage ) {
-    crit=c_mult*damage;
+    int crit=c_mult*damage;
     return crit; 
 }
 int roll () {    
