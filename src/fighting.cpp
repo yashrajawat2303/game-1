@@ -22,7 +22,7 @@ int critical(int damage ) {
 int roll () {    
 int roll = rand() %100;
  damage=attack();
-    if (roll >c_rate) {
+    if (roll < c_rate) {
         return critical(damage) ;
     }
      else {
