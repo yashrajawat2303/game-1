@@ -31,6 +31,9 @@ public:
         int &def,
         int &end,
         int &spd,
+        int &c_rate,
+        int &c_mult,
+        
     
     
     );
