@@ -13,7 +13,7 @@ class character {
     public:
 
     string name;
-
+     
     
     if (health>hp) {
         health=hp;
@@ -22,9 +22,8 @@ class character {
     if (health < 0 ){
         cout << game over nigga << endl
     }
-
     
-
+    
     
        
 
