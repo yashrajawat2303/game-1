@@ -22,15 +22,6 @@ class character {
 
     
 
-    attack (int damage ) {
-      damage= str*0.7+dex*0.2+aur*0.4;
-      return damage;
-    }  
-        
-    dmgtake(int absorb ) {
-    absorb = def*0.5+end*0.5;
-    return absorb;
-    }
     
        
 
