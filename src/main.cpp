@@ -10,26 +10,7 @@ class character {
     public:
 
     string name;
-    int level;
-    int health;
-    int stamina;
-    int energy;
-    int world_power;
-    int Malice;
-    int aura;
-    string trait;
-    string ability;
-    string Synchronize;
-    int xp;
-    int str;
-    int agl;
-    int dex;
-    int def;
-    int end;
-    int aur;
-    int hp;
-    int mp;
-    int spd;
+
     
     if (health>hp) {
         health=hp;
