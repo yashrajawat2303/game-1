@@ -5,7 +5,7 @@
 #include <ostream>
 #include "fighting.h"
 #include "PROGRESSION.h"
-#include "mc_h"
+#include "mc.h"
 
 using namespace std ;
 

@@ -1,5 +1,5 @@
-#ifndef fighting_h
-#define fighting_h
+#ifndef fighting.h
+#define fighting.h
 
 int damage;
 int absorb;

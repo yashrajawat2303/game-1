@@ -1,5 +1,5 @@
-#ifndef PROGRESSION_H
-#define PROGRESSION_H
+#ifndef PROGRESSION.H
+#define PROGRESSION.H
 
 class Progression
 {
@@ -86,7 +86,7 @@ public:
         level_up ()
 
 
-
+     }
 
  };
 
