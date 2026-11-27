@@ -5,7 +5,7 @@
 #include <ostream>
 #include "fighting.h"
 #include "PROGRESSION.h"
-
+#include "mc_h"
 
 using namespace std ;
 
@@ -22,8 +22,6 @@ class character {
     if (health < 0 ){
         cout << game over nigga << endl
     }
-    
-    
     
        
 
